@@ -55,7 +55,7 @@ return {
     -- ═══════════════════════════════════════════════
     -- CUSTOMER KEYS (Rename kar sakte ho)
     -- ═══════════════════════════════════════════════
-    ["CUSTOMER-RAHUL-01"] = {
+    ["CUSTOMER-Django-01"] = {
         type = "VIP",
         expiry = "2026-12-31",
         valid = true,
