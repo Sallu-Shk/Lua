@@ -20,7 +20,7 @@ return {
         expiry = "2027-06-30",
         valid = true,
         max_devices = 2,
-        script = "rk",
+        script = "payload1",
         note = "6 month 2 devices"
     },
     ["VIP-1YEAR-C03"] = {
