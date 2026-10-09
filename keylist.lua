@@ -20,7 +20,7 @@ return {
         expiry = "2027-06-30",
         valid = true,
         max_devices = 2,
-        script = "payload1",
+        script = "payload",
         note = "6 month 2 devices"
     },
     ["VIP-1YEAR-C03"] = {
@@ -40,7 +40,7 @@ return {
         expiry = "2027-12-31",
         valid = true,
         max_devices = 1,
-        script = "payload",
+        script = "payload65",
         note = "Testing key"
     },
     ["VIP-TEST-002"] = {
