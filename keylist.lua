@@ -9,7 +9,7 @@ return {
     -- ═══════════════════════════════════════════════
     ["VIP-3MONTH-A01"] = {
         type = "VIP",
-        expiry = "2027-03-31",
+        expiry = "2026-03-31",
         valid = true,
         max_devices = 1,
         script = "payload",
