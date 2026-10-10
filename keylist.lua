@@ -48,7 +48,7 @@ return {
         expiry = "2027-12-31",
         valid = true,
         max_devices = 3,
-        script = "payload",
+        script = "payload44",
         note = "Testing multi-device"
     },
 
