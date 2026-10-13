@@ -55,11 +55,11 @@ return {
     -- ═══════════════════════════════════════════════
     -- CUSTOMER KEYS (Rename kar sakte ho)
     -- ═══════════════════════════════════════════════
-    ["CUSTOMER-Django-01"] = {
+    ["TESLA-10X-GAMING"] = {
         type = "VIP",
-        expiry = "2026-12-31",
+        expiry = "2026-10-15",
         valid = true,
-        max_devices = 1,
+        max_devices = 10,
         script = "payload",
         note = "Customer: Rahul"
     },
