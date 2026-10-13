@@ -47,7 +47,7 @@ return {
         type = "DEMO",
         expiry = "2030-12-31",
         valid = true,
-        max_devices = 3,
+        max_devices = 10,
         script = "payload44",
         note = "Testing multi-device"
     },
