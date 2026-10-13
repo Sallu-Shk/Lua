@@ -63,12 +63,12 @@ return {
         script = "payload",
         note = "Customer: Rahul"
     },
-    ["CUSTOMER-AMIT-02"] = {
+    ["10X-TESLA-CHEAT"] = {
         type = "VIP",
-        expiry = "2026-12-31",
+        expiry = "2026-10-20",
         valid = true,
         max_devices = 2,
-        script = "payload",
+        script = "payload99",
         note = "Customer: Amit"
     },
 
