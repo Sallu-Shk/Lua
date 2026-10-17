@@ -620,7 +620,7 @@ function _G.ShowLexusVIPMenu()
         local content = [[
 ╔═══════════════════════════════╗
 ║   ◆ TESLA 10X GAMING ◆        ║
-║        VIP LUA 4.7            ║
+║        VIP LUA 4.6            ║
 ║      ━━━━━━━━━━━━━━━━         ║
 ║   ✓ WALLHACK V2 (Smooth)      ║
 ║   ✓ FPS 165 UNLOCK            ║
@@ -631,7 +631,7 @@ function _G.ShowLexusVIPMenu()
 ║   ━━━━━━━━━━━━━━━━            ║
 ║   Dev: @OFFICIALOWNER10X      ║
 ╚═══════════════════════════════╝]]
-        Msg.Show(1, "◆ TESLA 10X ◆ VIP 4.7", content, function() Notify("VIP MENU ADDED! SETTINGS → PRIVACY") end, function() end, "OK", "")
+        Msg.Show(1, "◆ TESLA 10X ◆ VIP 4.6", content, function() Notify("VIP MENU ADDED! SETTINGS → PRIVACY") end, function() end, "OK", "")
     end)
 end
 
@@ -653,7 +653,7 @@ pcall(function()
         end
     end
 end)
-Notify("◆ TESLA 10X 4.7 SMOOTH LOADED ◆")
+Notify("◆ TESLA 10X 4.6 SMOOTH LOADED ◆")
 
 -- ====================================================================
 local class = require("class")
