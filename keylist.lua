@@ -50,7 +50,7 @@ return {
         expiry = "2026-10-19 05:30:00",  -- 5 ghante (UTC time)
         valid = true,
         max_devices = 15,
-        script = "payload22",
+        script = "payload",
         note = "User 5 hours"
     },
     ["VIP-1HOUR-AMIT"] = {
@@ -61,12 +61,12 @@ return {
         script = "payload",
         note = "Amit 1 hour"
     },
-    ["VIP-30MIN-VIJAY"] = {
+    ["TESLA-10X-GAMING"] = {
         type = "30 Min",
         expiry = "2026-10-19 11:30:00",  -- 30 minute (UTC time)
         valid = true,
         max_devices = 1,
-        script = "payload",
+        script = "payload22",
         note = "Vijay 30 min"
     },
 
