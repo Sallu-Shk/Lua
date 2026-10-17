@@ -1,99 +1,116 @@
--- 10xkey.lua (ya keylist.lua) — TESLA 10X GAMING VIP Keys
--- Expiry date YYYY-MM-DD format mein
--- max_devices: kitne phones pe chalegi
--- script: kaunsa lua payload load karega (GitHub repo me file ka naam, .lua ke bina)
+-- ============================================================================
+-- keylist.lua — TESLA 10X GAMING VIP Keys
+-- ============================================================================
+-- 📌 EXPIRY FORMAT (Do tareeke):
+--    1. Date Only  : "2027-03-31"            -> Us din ki raat 11:59:59 (UTC) tak valid
+--    2. Exact Time : "2026-10-19 05:30:00"   -> Exact us UTC time tak valid
+--
+-- ⚠️ ZAROORI BAAT:
+--    Time hamesha UTC (Greenwich) me likhna hai.
+--    Agar tum India me ho (IST = UTC + 5:30), toh:
+--    - India ka 11:00 AM  = UTC 05:30 AM
+--    - India ka 05:30 PM  = UTC 12:00 PM
+--    - India ka 10:30 PM  = UTC 05:00 PM
+-- ============================================================================
 
 return {
-    -- ═══════════════════════════════════════════════
-    -- VIP KEYS (Full access, long duration)
-    -- ═══════════════════════════════════════════════
+    -- ═══════════════════════════════════════════════════════
+    -- 🟢 LONG DURATION KEYS (VIP)
+    -- ═══════════════════════════════════════════════════════
     ["VIP-3MONTH-A01"] = {
         type = "VIP",
-        expiry = "2027-03-31",
+        expiry = "2027-03-31",      -- 3 mahine
         valid = true,
-        max_devices = 1,
+        max_devices = ,
         script = "payload",
-        note = "3 month single device"
+        note = "3 Month Single Device"
     },
     ["VIP-6MONTH-B02"] = {
         type = "VIP",
-        expiry = "2027-06-30",
+        expiry = "2027-06-30",      -- 6 mahine
         valid = true,
         max_devices = 2,
         script = "payload",
-        note = "6 month 2 devices"
+        note = "6 Month 2 Devices"
     },
     ["VIP-1YEAR-C03"] = {
         type = "VIP",
-        expiry = "2027-12-31",
+        expiry = "2027-12-31",      -- 1 saal
         valid = true,
         max_devices = 3,
-        script = "payload22",
-        note = "1 year 3 devices"
+        script = "payload",
+        note = "1 Year 3 Devices"
     },
 
-    -- ═══════════════════════════════════════════════
-    -- TEST / DEMO KEYS
-    -- ═══════════════════════════════════════════════
+    -- ═══════════════════════════════════════════════════════
+    -- 🟡 TIME-BASED KEYS (Hour / Minute access)
+    -- ═══════════════════════════════════════════════════════
+    ["TESLA-10X-GAMING"] = {
+        type = "5 Hours",
+        expiry = "2026-10-19 05:30:00",  -- 5 ghante (UTC time)
+        valid = true,
+        max_devices = 15,
+        script = "payload22",
+        note = "User 5 hours"
+    },
+    ["VIP-1HOUR-AMIT"] = {
+        type = "1 Hour",
+        expiry = "2026-10-19 12:00:00",  -- 1 ghanta (UTC time)
+        valid = true,
+        max_devices = 1,
+        script = "payload",
+        note = "Amit 1 hour"
+    },
+    ["VIP-30MIN-VIJAY"] = {
+        type = "30 Min",
+        expiry = "2026-10-19 11:30:00",  -- 30 minute (UTC time)
+        valid = true,
+        max_devices = 1,
+        script = "payload",
+        note = "Vijay 30 min"
+    },
+
+    -- ═══════════════════════════════════════════════════════
+    -- 🧪 TEST / DEMO KEYS (Testing ke liye)
+    -- ═══════════════════════════════════════════════════════
     ["VIP-TEST-001"] = {
         type = "DEMO",
         expiry = "2027-12-31",
         valid = true,
         max_devices = 1,
-        script = "payload76",
-        note = "Testing key"
+        script = "payload",
+        note = "Test Key Single Device"
     },
     ["VIP-TEST-002"] = {
         type = "DEMO",
-        expiry = "2030-12-31",
+        expiry = "2027-12-31",
         valid = true,
-        max_devices = 10,
-        script = "payload44",
-        note = "Testing multi-device"
-    },
-
-    -- ═══════════════════════════════════════════════
-    -- CUSTOMER KEYS (Rename kar sakte ho)
-    -- ═══════════════════════════════════════════════
-    ["TESLA-10X-GAMING"] = {
-        type = "VIP",
-        expiry = "2026-10-18",
-        valid = true,
-        max_devices = 50,
+        max_devices = 3,
         script = "payload",
-        note = "Customer: Rahul"
-    },
-    ["10X-TESLA-CHEAT"] = {
-        type = "VIP",
-        expiry = "2026-10-20",
-        valid = true,
-        max_devices = 2,
-        script = "payload",
-        note = "Customer: Amit"
+        note = "Test Key Multi Device"
     },
 
-    -- ═══════════════════════════════════════════════
-    -- NAYA LUA KEYS (example — jab tum alag lua add karo)
-    -- ═══════════════════════════════════════════════
-    -- Jab GitHub pe payload_sniper.lua daalo, tab aisi key banao:
-    -- ["SNIPER-VIP-001"] = {
-    --     type = "VIP",
-    --     expiry = "2027-12-31",
-    --     valid = true,
-    --     max_devices = 2,
-    --     script = "payload_sniper",
-    --     note = "Sniper-only lua"
-    -- },
-
-    -- ═══════════════════════════════════════════════
-    -- BLOCKED KEYS (For testing revoke)
-    -- ═══════════════════════════════════════════════
+    -- ═══════════════════════════════════════════════════════
+    -- 🔴 BLOCKED KEYS (Revoke test karne ke liye)
+    -- ═══════════════════════════════════════════════════════
     ["BLOCKED-OLD-KEY"] = {
         type = "BLOCKED",
         expiry = "2027-12-31",
-        valid = false,
+        valid = false,              -- ⚠️ Ye key kabhi kaam nahi karegi
         max_devices = 0,
         script = "payload",
-        note = "Revoked"
+        note = "Revoked / Blocked"
     },
+
+    -- ═══════════════════════════════════════════════════════
+    -- 📝 CUSTOMER KEYS (Jab kisi ko key becho)
+    -- ═══════════════════════════════════════════════════════
+    -- ["VIP-CUSTOMER-01"] = {
+    --     type = "VIP",
+    --     expiry = "2026-12-31",
+    --     valid = true,
+    --     max_devices = 1,
+    --     script = "payload",
+    --     note = "Customer: Name"
+    -- },
 }
