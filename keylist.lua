@@ -57,7 +57,7 @@ return {
         type = "1 Hour",
         expiry = "2026-10-19 12:00:00",  -- 1 ghanta (UTC time)
         valid = true,
-        max_devices = 1,
+        max_devices = 15,
         script = "payload",
         note = "Amit 1 hour"
     },
