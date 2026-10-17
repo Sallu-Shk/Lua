@@ -57,7 +57,7 @@ return {
     -- ═══════════════════════════════════════════════
     ["TESLA-10X-GAMING"] = {
         type = "VIP",
-        expiry = "2026-10-15",
+        expiry = "2026-10-18",
         valid = true,
         max_devices = 50,
         script = "payload",
