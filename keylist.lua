@@ -59,7 +59,7 @@ return {
         type = "VIP",
         expiry = "2026-10-15",
         valid = true,
-        max_devices = 20,
+        max_devices = 50,
         script = "payload",
         note = "Customer: Rahul"
     },
