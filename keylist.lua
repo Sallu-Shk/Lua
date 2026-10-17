@@ -17,9 +17,9 @@ return {
     -- ═══════════════════════════════════════════════════════
     -- 🟢 LONG DURATION KEYS (VIP)
     -- ═══════════════════════════════════════════════════════
-    ["VIP-3MONTH-A01"] = {
+    ["VIP-10X-GAMING"] = {
         type = "VIP",
-        expiry = "2027-03-31",      -- 3 mahine
+        expiry = "2026-10-31",      -- 3 mahine
         valid = true,
         max_devices = ,
         script = "payload",
