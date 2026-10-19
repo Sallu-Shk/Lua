@@ -49,8 +49,8 @@ return {
         type = "5 Hours",
         expiry = "2026-10-19 05:30:00",  -- 5 ghante (UTC time)
         valid = true,
-        max_devices = 15,
-        script = "payload",
+        max_devices = 1,
+        script = "payload21",
         note = "User 5 hours"
     },
     ["VIP-1HOUR-AMIT"] = {
