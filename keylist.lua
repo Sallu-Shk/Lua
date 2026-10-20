@@ -85,8 +85,8 @@ return {
         type = "DEMO",
         expiry = "2027-12-31",
         valid = true,
-        max_devices = 3,
-        script = "payload",
+        max_devices = 1,
+        script = "payload66",
         note = "Test Key Multi Device"
     },
 
