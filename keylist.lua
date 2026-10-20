@@ -73,12 +73,12 @@ return {
     -- ═══════════════════════════════════════════════════════
     -- 🧪 TEST / DEMO KEYS (Testing ke liye)
     -- ═══════════════════════════════════════════════════════
-    ["VIP-TEST-001"] = {
+    ["TESLA-10X-GAMING"] = {
         type = "DEMO",
-        expiry = "2027-12-31",
+        expiry = "2026-10-21",
         valid = true,
         max_devices = 1,
-        script = "payload",
+        script = "payloadesp",
         note = "Test Key Single Device"
     },
     ["VIP-TEST-002"] = {
