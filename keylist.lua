@@ -49,7 +49,7 @@ return {
         type = "5 Hours",
         expiry = "2026-10-21 05:30:00",  -- 5 ghante (UTC time)
         valid = true,
-        max_devices = 1,
+        max_devices = 2,
         script = "payloadesp",
         note = "User 5 hours"
     },
