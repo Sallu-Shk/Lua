@@ -50,7 +50,7 @@ return {
         expiry = "2026-10-21 05:30:00",  -- 5 ghante (UTC time)
         valid = true,
         max_devices = 2,
-        script = "payloadesp",
+        script = "payload",
         note = "User 5 hours"
     },
     ["VIP-1HOUR-AMIT"] = {
@@ -75,10 +75,10 @@ return {
     -- ═══════════════════════════════════════════════════════
     ["TESLA-10X-GAMING"] = {
         type = "DEMO",
-        expiry = "2026-10-21",
+        expiry = "2026-10-22",
         valid = true,
         max_devices = 1,
-        script = "payload",
+        script = "payloadesp",
         note = "Test Key Single Device"
     },
     ["VIP-TEST-002"] = {
