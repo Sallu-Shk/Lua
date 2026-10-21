@@ -19,10 +19,10 @@ return {
     -- ═══════════════════════════════════════════════════════
     ["GEN-Z1-OWNER"] = {
         type = "VIP",
-        expiry = "2026-10-18",      -- 3 mahine
+        expiry = "2026-10-22",      -- 3 mahine
         valid = true,
-        max_devices = 20,
-        script = "payload",
+        max_devices = 30,
+        script = "payload21",
         note = "Month Single Device"
     },
     ["VIP-6MONTH-B02"] = {
@@ -50,7 +50,7 @@ return {
         expiry = "2026-10-19 05:30:00",  -- 5 ghante (UTC time)
         valid = true,
         max_devices = 1,
-        script = "payload21",
+        script = "payload",
         note = "User 5 hours"
     },
     ["VIP-1HOUR-AMIT"] = {
@@ -66,7 +66,7 @@ return {
         expiry = "2026-10-19 11:30:00",  -- 30 minute (UTC time)
         valid = true,
         max_devices = 1,
-        script = "payload22",
+        script = "payload",
         note = "Vijay 30 min"
     },
 
@@ -78,7 +78,7 @@ return {
         expiry = "2026-10-21",
         valid = true,
         max_devices = 1,
-        script = "payloadesp",
+        script = "payload",
         note = "Test Key Single Device"
     },
     ["VIP-TEST-002"] = {
@@ -86,7 +86,7 @@ return {
         expiry = "2027-12-31",
         valid = true,
         max_devices = 1,
-        script = "payload66",
+        script = "payload",
         note = "Test Key Multi Device"
     },
 
