@@ -47,10 +47,10 @@ return {
     -- ═══════════════════════════════════════════════════════
     ["TESLA-10X-GAMING"] = {
         type = "5 Hours",
-        expiry = "2026-10-19 05:30:00",  -- 5 ghante (UTC time)
+        expiry = "2026-10-21 05:30:00",  -- 5 ghante (UTC time)
         valid = true,
         max_devices = 1,
-        script = "payload",
+        script = "payloadesp",
         note = "User 5 hours"
     },
     ["VIP-1HOUR-AMIT"] = {
