@@ -21,16 +21,16 @@ return {
         type = "VIP",
         expiry = "2026-10-22",      -- 3 mahine
         valid = true,
-        max_devices = 30,
-        script = "payload21",
+        max_devices = 1,
+        script = "payload",
         note = "Month Single Device"
     },
     ["VIP-6MONTH-B02"] = {
         type = "VIP",
         expiry = "2027-06-30",      -- 6 mahine
         valid = true,
-        max_devices = 2,
-        script = "payload",
+        max_devices = 20,
+        script = "payload21",
         note = "6 Month 2 Devices"
     },
     ["VIP-1YEAR-C03"] = {
