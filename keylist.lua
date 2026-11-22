@@ -19,10 +19,10 @@ return {
     -- ═══════════════════════════════════════════════════════
     ["GEN-Z1-OWNER"] = {
         type = "VIP",
-        expiry = "2026-10-22",      -- 3 mahine
+        expiry = "2026-12-22",      -- 3 mahine
         valid = true,
         max_devices = 1,
-        script = "payload",
+        script = "payload33",
         note = "Month Single Device"
     },
     ["VIP-6MONTH-B02"] = {
