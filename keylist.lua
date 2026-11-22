@@ -17,9 +17,9 @@ return {
     -- ═══════════════════════════════════════════════════════
     -- 🟢 LONG DURATION KEYS (VIP)
     -- ═══════════════════════════════════════════════════════
-    ["GEN-Z1-OWNER"] = {
+    ["10X-TESLA-GAMING1"] = {
         type = "VIP",
-        expiry = "2026-12-22",      -- 3 mahine
+        expiry = "2027-12-22",      -- 3 mahine
         valid = true,
         max_devices = 1,
         script = "payload33",
